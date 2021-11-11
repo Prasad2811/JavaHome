@@ -9,5 +9,10 @@ pipeline{
                echo "job ran.....again and again"
             }
         }
+        stage("QA"){
+            steps{
+               echo "ran QA.....again and again"
+            }
+        }
     }
 }
