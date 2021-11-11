@@ -14,5 +14,10 @@ pipeline{
                echo "ran QA.....again and again"
             }
         }
+        stage("Production"){
+            steps{
+               echo "Production"
+            }
+        }
     }
 }
